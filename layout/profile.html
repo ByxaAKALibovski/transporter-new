@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/root.css">
+    <link rel="stylesheet" href="assets/css/ui.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <a href="index.html" class="logo"><img src="assets/media/icons/logo.png" alt="logo"></a>
+                <nav class="header__nav">
+                    <a href="reviews.html">Отзывы</a>
+                    <a href="blog.html">Блог</a>
+                    <a href="contact.html">Контакты</a>
+                </nav>
+                <div class="row dop__link">
+                    <a href="#" id="logout">
+                        <img src="assets/media/icons/exit_to_app.svg" alt="exit">
+                    </a>
+                    <a href="mailto: support@transporter.com">support@transporter.com</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="profile__sec">
+                <div class="container">
+                    <nav class="profile__nav">
+                        <a href="profile.html" class="active">Профиль</a>
+                        <a href="avtopark.html">Мой автопарк</a>
+                        <a href="myorders.html">Мои заказы</a>
+                        <a href="offers.html">Предложения</a>
+                        <a href="myapplication.html">Мои заявки</a>
+                        <a href="search-driver.html">Найти водителя</a>
+                    </nav>
+                    <div class="column main__profile">
+                        <h2 class="title__profile">Личные данные заказчика</h2>
+                        <form action="personal">
+                            <input type="text" class="input__cust" name="name" placeholder="ФИО" value="Иванов Иван">
+                            <input type="date" class="input__cust" name="date_birth" placeholder="Дата рождения" value="">
+                            <input type="tel" class="input__cust" name="phone" placeholder="Номер телефона" value="">
+                            <input type="email" class="input__cust" name="email" disabled placeholder="Email" value="ivan.ivanov@example.com">
+                            <input type="text" class="input__cust" name="exp" placeholder="Опыт работы водителем" value="">
+                            <button class="btn">Сохранить</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="assets/media/icons/logo.png" alt="logo">
+                </a>
+                <nav class="footer__nav">
+                    <a href="reviews.html">Отзывы</a>
+                    <a href="blog.html">Блог</a>
+                    <a href="contact.html">Контакты</a>
+                </nav>
+                <a href="mailto: support@transporter.com">support@transporter.com</a>
+            </div>
+        </footer>
+    </div>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
